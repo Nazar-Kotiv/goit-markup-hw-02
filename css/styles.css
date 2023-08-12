@@ -1,11 +1,126 @@
-.main-page 
-{background: var(--navyblue, #2E2F42);
+body {
+   font-family: "Roboto", Verolana;
+   background-color: #FFF;
+   color: #2E2F42;   
+   font-size: 16px;
+   line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+.accent {
+    color:#4D5AE5;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54;
+        text-transform: uppercase;
+}
+.logotipe {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
 
-.page-title
-{
-    color: aqua;
+.site-nav {
+    
+    font-size: 16px;
+    letter-spacing: 0.32;
+    font-weight: 500;
+    
+       
 }
-body {
-	font-family: 'Tangerine', cursive;
+.address {
+    color: #434455;
+     font-weight: 400;
+     letter-spacing: 0.32px;
+    
+
+}
+
+.section-hero {
+    background:#2E2F42;
+}
+
+.page-title {
+    color: #FFF;
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12;
+}
+
+.button-order-service {
+    border-radius: 4px;
+     background: #4D5AE5;
+     box-shadow: 0px 4px 4px 0px rgba0, 0, 0, 0.15;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.64;
+}
+
+.section-text {
+font-weight: 400;
+color: #434455;
+}
+.section-text .title{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+ 
+    
+}
+
+.section-our-team .title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+}
+
+.section-our-team {
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    color:#434455;
+    text-align: center;
+}
+
+.section-our-team .title-name{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.section-portfolio{
+    color: #434455;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+}
+
+.section-portfolio .title{
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+     text-transform: capitalize;
+    line-height: 1.11;
+}
+
+.section-portfolio .copirate-text{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.footer-page{
+    color: #F4F4FD;
+    background: #2E2F42;
+    font-weight: 400;
+    letter-spacing: 0.32px;
 }
