@@ -1,0 +1,11 @@
+.main-page 
+{background: var(--navyblue, #2E2F42);
+}
+
+.page-title
+{
+    color: aqua;
+}
+body {
+	font-family: 'Tangerine', cursive;
+}
